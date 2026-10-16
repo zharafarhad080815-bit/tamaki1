@@ -1,0 +1,75 @@
+<!--In this assignment, you will build a nature-themed webpage using Bootstrap utility classes. They will create a full-width header, a centered content area, multiple nature information cards, and a footer while practising spacing, containers, colour classes, padding, and borders.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Nature Explorer Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #28a745; /* Full-width green header */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .nature-card {
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #343a40; /* Full-width dark footer */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Nature Explorer Page</h1>
+    </div>
+
+    <div class="content">
+        <p>Explore the wonders of nature through our curated information cards.</p>
+    </div>
+
+    <div class="container text-center">
+        <div class="nature-card bg-success text-white border border-dark p-3">
+            <h2>Forests</h2>
+            <p>Forests are vital for the planet, providing oxygen and habitats for countless species.</p>
+        </div>
+        <div class="nature-card bg-info text-white border border-dark p-3">
+            <h2>Oceans</h2>
+            <p>Oceans cover more than 70% of the Earth's surface and are home to diverse marine life.</p>
+        </div>
+        <div class="nature-card bg-warning text-dark border border-dark p-3">
+            <h2>Mountains</h2>
+            <p>Mountains offer breathtaking views and are crucial for water resources and biodiversity.</p>
+        </div>
+        <div class="nature-card bg-danger text-white border border-dark p-3">
+            <h2>Deserts</h2>
+            <p>Deserts may seem barren, but they host unique ecosystems adapted to extreme conditions.</p>
+        </div>
+        <div class="nature-card bg-secondary text-white border border-dark p-3">
+            <h2>Rivers</h2>
+            <p>Rivers are lifelines for communities, providing water, food, and transportation routes.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 My Nature Explorer Page. All rights reserved.
+    </div>
+</body>
+</html>
